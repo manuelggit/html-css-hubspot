@@ -4,6 +4,8 @@ header {
   height: 130px; /* debug */
 }
 
+/* HEADER */
+
 header::after {
   content: "";
   display: table;
@@ -29,4 +31,20 @@ header::after {
   width: 100%;
   height: 50px; /* debug */
   background: green; /* debug */
+}
+
+/* SEZIONE DI TESTA */
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sottoheader {
+  float: left;
+  width: 100%;
+  height: 78vh;
+  background-image: url("../img/SfondoHub.png");
+  background-size: cover;
 }
