@@ -1,7 +1,7 @@
 header {
   background: grey; /* debug */
   width: 100%;
-  height: 130px; /* debug */
+  height: 25vh; /* debug */
 }
 
 /* HEADER */
@@ -17,7 +17,7 @@ header::after {
 #top {
   float: left;
   width: 100%;
-  height: 30px; /* debug */
+  height: 24%; /* debug */
   background: red; /* debug */
 }
 
@@ -26,7 +26,7 @@ header::after {
 .grigio.header {
   float: left;
   width: 100%;
-  height: 50px; /* debug */
+  height: 38%; /* debug */
   background: blue; /* debug */
 }
 
@@ -35,7 +35,7 @@ header::after {
 .bianco.header {
   float: left;
   width: 100%;
-  height: 50px; /* debug */
+  height: 38%; /* debug */
   background: green; /* debug */
 }
 
@@ -50,12 +50,23 @@ section:after {
 .sottoheader {
   float: left;
   width: 100%;
-  height: 78vh;
+  height: 90vh;
   background-image: url("../img/SfondoHub.png");
   background-size: cover;
 }
 
 /* GRANDE SEZIONE GRIGIA */
+
+#div1::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#div1 {
+  float: left;
+  width: 100%;
+}
 
 .sezionegrigia::after {
   content: "";
@@ -65,11 +76,77 @@ section:after {
 
   /* GRANDE SEZIONE GRIGIA: prima parte grigia */
 
+.sezionegrigia {
+  float: left;
+  width: 100%;
+  background-color: lightgrey; /* debug */
+  height: 180vh; /* debug */
+}
+
+.topsezionegrigia {
+  float: left;
+  width: 100%;
+  background-color: red; /* debug */
+  height: 28%;/* debug */
+}
+
   /* GRANDE SEZIONE GRIGIA: parte centrale bianca */
+
+.mediasezionegrigia {
+  float: left;
+  width: 72%;
+  margin: 2% 14%; /* debug */
+  background-color: red; /* debug */
+  height: 20%; /* debug */
+}
 
   /* GRANDE SEZIONE GRIGIA: ultima parte con i tre sottoblocchi */
 
+.bottomsezionegrigia {
+  float: left;
+  width: 72%;
+  margin: 0 14%; /* debug */
+  background-color: red; /* debug */
+  height: 47%; /* debug */
+}
+
+.bottomsezionegrigia::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sottobottomsezgr {
+  float: left;
+  width: 30%;
+  margin-right: 5%; /* debug */
+  background-color: yellow; /* debug */
+  height: 90%; /* debug */
+}
+
+.sottobottomsezgrdx {
+  float: left;
+  width: 30%;
+  background-color: yellow; /* debug */
+  height: 90%; /* debug */
+}
+
 /* SEZIONE VERDE AL CENTRO */
+/* ma che succede da qui in poi? */
+
+#sezioneverde::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#sezioneverde {
+  float: left;
+  width: 100%;
+  height: 90vh;
+  background-image: url("../img/Tablet-Grass-with-Stroke.svg");
+  background-size: cover;
+}
 
   /* SEZIONE VERDE AL CENTRO: didascalia centrale */
 
@@ -77,17 +154,61 @@ section:after {
 
 /* PRIMA SEZIONE BIANCA */
 
+#div2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#div2 {
+  float: left;
+  width: 100%;
+}
+
+#sezionebianca1::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#sezionebianca1 {
+  float: left;
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+}
+
   /* PRIMA SEZIONE BIANCA: blocco sinistra */
 
   /* PRIMA SEZIONE BIANCA: blocco destra con i loghi vari */
 
 /* SECONDA SEZIONE BIANCA */
 
+#sezionebianca2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#sezionebianca2 {
+  float: left;
+  width: 100%;
+  height: 60vh;
+  background: yellow;
+}
+
   /* SECONDA SEZIONE BIANCA: blocco sinistra */
 
   /* SECONDA SEZIONE BIANCA: blocco destra con foto */
 
 /* FOOTER */
+
+footer {
+  float: left;
+  background: black; /* debug */
+  width: 100%;
+  height: 90vh; /* debug */
+}
 
   /* FOOTER: 4 colonne */
 
