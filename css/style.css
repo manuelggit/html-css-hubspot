@@ -11,6 +11,15 @@ header {
   height: 30vh;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* HEADER */
 
 header::after {
@@ -62,6 +71,19 @@ section:after {
   background-size: cover;
 }
 
+.sxsottoheader {}
+  width: 50%;
+  padding:10%;
+}
+
+.BottoneFree {
+  border-radius: 5px 5px;
+  width: 50%;
+  padding: 5% 5%;
+  background: #ff7a59;
+  color: white;
+}
+
 /* #f5f8fa GRANDE SEZIONE GRIGIA */
 
 #div1::after {
@@ -73,6 +95,28 @@ section:after {
 #div1 {
   float: left;
   width: 100%;
+}
+
+#sezionebianca1 {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sxsezionebianca1 {
+  width: 35%;
+}
+
+.dxsezionebianca1 {
+  width: 65%;
+  float: left;
+  margin: 10%;
+}
+
+.dxsezionebianca2 {
+  width: 45%;
+  float: left;
+  margin: 10%;
 }
 
 .sezionegrigia::after {
@@ -91,6 +135,13 @@ section:after {
 }
 
 .topsezionegrigia {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.topsezionegrigia {
   float: left;
   width: 100%;
   background-color: #f5f8fa;
@@ -98,6 +149,10 @@ section:after {
 }
 
   /* GRANDE SEZIONE GRIGIA: parte centrale bianca */
+
+.LearnMore {
+  background: orange; /*debug*/
+}
 
 .mediasezionegrigia {
   float: left;
@@ -139,7 +194,6 @@ section:after {
 }
 
 /* SEZIONE VERDE AL CENTRO */
-/* ma che succede da qui in poi? */
 
 #sezioneverde::after {
   content: "";
@@ -185,6 +239,8 @@ section:after {
   background: #ffffff;
 }
 
+.FooterColonna
+
   /* PRIMA SEZIONE BIANCA: blocco sinistra */
 
   /* PRIMA SEZIONE BIANCA: blocco destra con i loghi vari */
@@ -204,6 +260,43 @@ section:after {
   background: #ffffff;
 }
 
+.Bloccofooter::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Colonnafooter { /* debug */
+  float: left;
+  width: 25%;
+  list-style-type: none;
+  margin:
+}
+
+.English { /* debug */
+  float: left;
+  width: 60%;
+  margin: 10%;
+
+}
+
+.finefooter { /* debug */
+  width: 90%;
+  margin: 0 10%;
+  border-top: 1px solid white;
+}
+
+.finefooter::after { /* debug */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dxfinefooter {
+  float: left;
+}
+
+
   /* SECONDA SEZIONE BIANCA: blocco sinistra */
 
   /* SECONDA SEZIONE BIANCA: blocco destra con foto */
@@ -217,7 +310,15 @@ footer {
   height: 100vh;
 }
 
+footer::after {
+  content: "";
+  display: table;
+  clear: both;
+
   /* FOOTER: 4 colonne */
+
+
+
 
   /* FOOTER: primo blocco sotto le colonne */
 
