@@ -13,14 +13,32 @@ header {
 
 ul {
   list-style-type: none;
+  height: 100%;
+}
+
+li {
+  float: left;
+  text-align: center;
+  height: 100%;
+  margin-left: 5%;
+  padding-top: 3%;
+
+
 }
 
 a {
+  float: left;
   text-decoration: none;
   color: white;
+  height: 100%;
 }
 
-/* HEADER */
+img {
+  size: cover;
+  height: 100%;
+}
+
+/* HEADER
 
 header::after {
   content: "";
@@ -30,11 +48,29 @@ header::after {
 
   /* HEADER: blu #33475b */
 
+#top-container {
+  margin: 0 10%;
+  height: 100%;
+}
+
 #top {
   float: left;
   width: 100%;
   height: 24%;
   background: #33475b;
+}
+
+#top::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sxnav {
+  float: left;
+  width: 50%;
+  height: 100%;
+  display: inline-block;
 }
 
   /* HEADER: grigio #cbd6e2 */
@@ -71,7 +107,7 @@ section:after {
   background-size: cover;
 }
 
-.sxsottoheader {}
+.sxsottoheader {
   width: 50%;
   padding:10%;
 }
@@ -292,7 +328,7 @@ section:after {
   clear: both;
 }
 
-.dxfinefooter {
+.dxfinefooter { /* debug */
   float: left;
 }
 
