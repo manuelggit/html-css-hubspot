@@ -21,46 +21,24 @@ li {
   text-align: center;
   height: 100%;
   margin-left: 5%;
-  padding-top: 3%;
-
-
+  padding-top: 2%;
 }
 
 a {
   float: left;
   text-decoration: none;
-  color: white;
   height: 100%;
+  color: black;
 }
 
 img {
-  size: cover;
   height: 100%;
+  margin-top: 2%;
 }
 
-/* HEADER
+/* HEADER */
 
 header::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-  /* HEADER: blu #33475b */
-
-#top-container {
-  margin: 0 10%;
-  height: 100%;
-}
-
-#top {
-  float: left;
-  width: 100%;
-  height: 24%;
-  background: #33475b;
-}
-
-#top::after {
   content: "";
   display: table;
   clear: both;
@@ -73,7 +51,33 @@ header::after {
   display: inline-block;
 }
 
+  /* HEADER: blu #33475b */
+
+#top-container {
+  margin: 0 5%;
+  height: 100%;
+}
+
+#top {
+  float: left;
+  width: 100%;
+  height: 24%;
+  background: #33475b;
+
+}
+
+#top::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
   /* HEADER: grigio #cbd6e2 */
+
+#mid-container {
+  margin: 0 10%;
+  height: 100%;
+}
 
 .grigio.header {
   float: left;
@@ -82,7 +86,16 @@ header::after {
   background: #cbd6e2;
 }
 
+.secondnav {
+  margin-top: 3%;
+}
+
   /* HEADER: bianco */
+
+#bottom-container {
+  margin: 0 10%;
+  height: 100%;
+}
 
 .bianco.header {
   float: left;
@@ -107,14 +120,24 @@ section:after {
   background-size: cover;
 }
 
+h1 {
+  font-size: 60px;
+}
+
+h6 {
+  margin: 5% 0;
+  font-size: 15px
+}
+
 .sxsottoheader {
   width: 50%;
-  padding:10%;
+  padding: 8% 0;
+  margin-left: 10%;
 }
 
 .BottoneFree {
   border-radius: 5px 5px;
-  width: 50%;
+  width: 33%;
   padding: 5% 5%;
   background: #ff7a59;
   color: white;
