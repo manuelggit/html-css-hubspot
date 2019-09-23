@@ -184,6 +184,10 @@ h6 {
   clear: both;
 }
 
+#container-grigio {
+  margin: 0 15%;
+}
+
   /* GRANDE SEZIONE GRIGIA: prima parte grigia */
 
 .sezionegrigia {
@@ -193,11 +197,16 @@ h6 {
   height: 190vh;
 }
 
+/* .topsezionegrigia::after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
 .topsezionegrigia {
   content: "";
   display: table;
   clear: both;
-
 }
 
 .topsezionegrigia {
@@ -207,18 +216,70 @@ h6 {
   height: 28%;
 }
 
+.ImmagineCubo {
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+
+h3 {
+ float: left;
+ width: 100%;
+ font-size: 30px;
+ text-align: center;
+}
+
+
+
   /* GRANDE SEZIONE GRIGIA: parte centrale bianca */
 
 .LearnMore {
-  background: orange; /*debug*/
+  background: #ff7a59;
+  width: 110px;
+  border-radius: 5px 5px;
+  padding: 2% 2%;
+  margin: auto;
+  text-align: center;
+}
+
+.mediasezionegrigia::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .mediasezionegrigia {
   float: left;
-  width: 72%;
-  margin: 2% 14%;
-  background-color: #f5f8fa;
+  width: 100%;
+  margin: 2% 0;
+  background-color: #ffffff;
   height: 20%;
+}
+
+.sxmediogrigio {
+  float: left;
+  width: 15%;
+  margin: 5% 10%;
+}
+
+.dxmediogrigio {
+  margin: 5% 0;
+  float: left;
+  width: 60%;
+}
+
+h6.h6grigio{
+  text-align: center;
+  font-size: 12px;
+  float:left;
+}
+
+p.h6grigio {
+  font-size: 12px;
+}
+
+h4 {
+  margin: 2% 0;
 }
 
   /* GRANDE SEZIONE GRIGIA: ultima parte con i tre sottoblocchi */
@@ -250,6 +311,36 @@ h6 {
   width: 30%;
   background-color: #ffffff;
   height: 90%;
+}
+
+h5 {
+  float: left;
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+  margin: 1% 0;
+}
+
+.colonnagrigiaup::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.imgblocchi {
+  float: left;
+  margin: 10% 0;
+  padding: 0 30%;
+  width: 100%;
+  text-align: center;
+}
+
+#container-colonna-grigio {
+  padding: 3% 4%;
+}
+
+.colonnagrigiabottom {
+  margin-top: 1px solid black;
 }
 
 /* SEZIONE VERDE AL CENTRO */
