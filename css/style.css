@@ -506,6 +506,7 @@ h6.topverde {
 
 .Bloccofooter {
   margin: 5% 10%;
+  color: white;
 }
 
 li.footer {
@@ -538,6 +539,7 @@ li.footer {
   width: 90%;
   margin: 0 10%;
   border-top: 1px solid white;
+  color: white;
 }
 
 .finefooter::after { /* debug */
@@ -546,10 +548,18 @@ li.footer {
   clear: both;
 }
 
-.dxfinefooter { /* debug */
+.sxfinefooter {
   float: left;
+  width: 30%;
+  list-style-type: none;
 }
 
+.dxfinefooter { /* debug */
+  float: right;
+  list-style-type: none;
+  display: inline-block;
+  width: 45%;
+}
 
   /* SECONDA SEZIONE BIANCA: blocco sinistra */
 
